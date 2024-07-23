@@ -63,7 +63,7 @@ export const projectData = {
 			projectName: "Full Stack E-Commerce Project - (Currently Working On)",
 			description:
 				"Developing a Full-Stack project with TypeScript, Next.js, and Tailwind CSS, using Sanity for product data and Vercel Postgres for cart functionality.",
-			skills: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Sanity', 'Vercel-Postgres'],
+			skills: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Sanity', 'Drizzle ORM', 'Vercel-Postgres'],
 			link: 'https://github.com/Ace-kv/ecom-website'
 		},
 
@@ -71,7 +71,7 @@ export const projectData = {
 			projectName: "Fully Functional Blog",
 			description:
 				"Developed a feature-rich Blog with User Authentication, Password Reset, and exclusive comment editing and deletion privileges for authors and Admins. Implemented Security Optimizations using libraries like secrets and bleach.",
-			skills: ['Python', 'Flask', 'Jinja', 'SQLAlchemy', 'PostgreSQL', 'HTML 5', 'CSS 3', 'JS', 'Bootstrap 5'],
+			skills: ['Python', 'Flask', 'Jinja', 'SQLAlchemy ORM', 'PostgreSQL', 'HTML 5', 'CSS 3', 'JS', 'Bootstrap 5'],
 			link: 'https://github.com/Ace-kv/first-functional-blog'
 		},
 
