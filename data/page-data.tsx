@@ -11,7 +11,7 @@ export const personalData = {
 	contactLinks: [
 		"mailto:emailto:talhashahid100@yahoo.com",
 		"https://twitter.com",
-		"https://linkedin.com",
+		"https://www.linkedin.com/in/muhammad-talha-shahid-a956635a/",
 		"https://github.com/Ace-kv",
 	],
 };
@@ -21,7 +21,7 @@ export const aboutMe = {
 	title: "About Me",
 	body: [
 		"Self-taught developer passionate about using technology to create positive change and thrive on collaborative opportunities, valuing human interaction as much as technical expertise. I possess a strong aptitude for tackling challenging problems and maintaining unwavering focus on my goals, even when faced with challenges.",
-		"Outside of work, I enjoy hiking, reading, and quality time with loved ones. I strongly believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"Outside of work, I enjoy exercising, reading, and quality time with loved ones. I strongly believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
 	],
 };
 
@@ -36,14 +36,17 @@ export const skills = {
 		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
-		{ icon: "🛠️", text: "Flask" },
 		{ icon: "📈", text: "Next.js" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
 		{ icon: "📈", text: "Tailwind CSS" },
+		{ icon: "📃", text: "Drizzle ORM" },
+		{ icon: "💾", text: "Vercel-Postgres" },
+		{ icon: "📊", text: "Sanity - Headless CMS" },
+		{ icon: "💻", text: "Python" },
+		{ icon: "🛠️", text: "Flask" },
 		{ icon: "💾", text: "SQLite" },
-		{ icon: "📃", text: "SQLAlchemy" },
+		{ icon: "📃", text: "SQLAlchemy ORM" },
 		{ icon: "🧮", text: "Numpy" },
 		{ icon: "⚙️", text: "Pandas" },
 		{ icon: "📊", text: "Matplotlib" },
@@ -57,6 +60,14 @@ export const projectData = {
 	title: "Projects",
 	projects: [
 		{
+			projectName: "Full Stack E-Commerce Project - (Currently Working On)",
+			description:
+				"Developing a Full-Stack project with TypeScript, Next.js, and Tailwind CSS, using Sanity for product data and Vercel Postgres for cart functionality.",
+			skills: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Sanity', 'Vercel-Postgres'],
+			link: 'https://github.com/Ace-kv/ecom-website'
+		},
+
+		{
 			projectName: "Fully Functional Blog",
 			description:
 				"Developed a feature-rich Blog with User Authentication, Password Reset, and exclusive comment editing and deletion privileges for authors and Admins. Implemented Security Optimizations using libraries like secrets and bleach.",
@@ -65,7 +76,7 @@ export const projectData = {
 		},
 
 		{
-			projectName: " Data Visualization for Nobel Prize Dataset",
+			projectName: "Data Visualization for Nobel Prize Dataset - (Will soon upload IPYNB file on Github)",
 			description:
 				"Utilised Data Visualization Techniques for Nobel Prize Dataset through Python, leveraging a suite of powerful tools including Plotly, Matplotlib, and Seaborn.",
 			skills: ['Python', 'Plotly', 'Matplotlib', 'Seaborn'],
